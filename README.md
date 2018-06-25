@@ -65,6 +65,12 @@
 
 * [go](https://golang.org/doc/install)
 
+* [go-bindata](github.com/jteeuwen/go-bindata)
+  * 将任何文件打包到go源码的工具
+
+* [go-bindata-assetfs](github.com/elazarl/go-bindata-assetfs)
+  * 和go-bindata配套使用，提供net/http的接口
+
 ## npm安装的
 
 * [http-server](https://github.com/indexzero/http-server)
