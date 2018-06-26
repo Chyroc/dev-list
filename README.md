@@ -18,6 +18,10 @@
   * brew install zsh
   * install oh-my-zsh with [this]([oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh))
 
+## db
+
+* [mariadb](https://mariadb.com/)：mysql的一个开源分支
+
 ## tools
 
 * [autojump](https://github.com/wting/autojump)：快速进入目录的工具
@@ -49,9 +53,11 @@
 ## golang
 
 * [go](https://golang.org/doc/install)
+* [dep](https://github.com/golang/dep)
 * [boltdb](https://github.com/boltdb/bolt)：基于文件的k-v数据库
-* [go-bindata](github.com/jteeuwen/go-bindata)：将任何文件打包到go源码的工具
-* [go-bindata-assetfs](github.com/elazarl/go-bindata-assetfs)：和go-bindata配套使用，提供net/http的接口
+* [go-bindata](https://github.com/jteeuwen/go-bindata)：将任何文件打包到go源码的工具
+* [go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)：和go-bindata配套使用，提供net/http的接口
+* [server-packager](https://github.com/Chyroc/server-packager)：将静态文件打包到一起，提供一个一键生成server的工具
 
 ## npm安装的
 
