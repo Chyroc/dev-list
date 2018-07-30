@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 
-# brew
-brew install mariadb
+# data store
+brew install mysql
+brew install redis
+brew install postgresql
+
+# quene
+brew install nsq
+brew install beanstalkd
