@@ -8,3 +8,6 @@ brew install postgresql
 # quene
 brew install nsq
 brew install beanstalkd
+
+# go plugin
+brew install diff-so-fancy

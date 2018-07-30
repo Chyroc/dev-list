@@ -77,3 +77,8 @@
 * [leetcode-cli](https://github.com/skygragon/leetcode-cli)
   * 命令行刷leetcode
   * npm install -g leetcode-cli
+
+## git config
+
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+  * git diff 更友好
