@@ -82,3 +82,9 @@
 
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
   * git diff 更友好
+
+## chrome
+
+* [github-file-icon](https://github.com/xxhomey19/github-file-icon)
+  * 给github的文件加上icon
+  * [chrome 安装地址](https://chrome.google.com/webstore/detail/file-icon-for-github-gitl/ficfmibkjjnpogdcfhfokmihanoldbfe)
