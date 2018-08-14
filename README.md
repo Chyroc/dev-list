@@ -78,10 +78,12 @@
   * 命令行刷leetcode
   * npm install -g leetcode-cli
 
-## git config
+## git
 
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
   * git diff 更友好
+* [github-changelog-generator](https://github.com/github-changelog-generator/github-changelog-generator)
+  * 自动生成github release日志
 
 ## chrome
 
