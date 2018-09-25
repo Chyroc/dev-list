@@ -49,6 +49,9 @@
 * [postman](https://www.getpostman.com/)
   * 一个带gui的发送http请求的工具
   * brew cask install postman
+* pngparse
+  * 复制剪切板图片到文件
+  * brew install pngpaste
 
 ## front-end
 

@@ -11,3 +11,6 @@ brew install beanstalkd
 
 # go plugin
 brew install diff-so-fancy
+
+# png parse
+brew install pngpaste
