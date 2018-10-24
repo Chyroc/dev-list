@@ -70,6 +70,7 @@
 * [go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)：和go-bindata配套使用，提供net/http的接口
 * [server-packager](https://github.com/Chyroc/server-packager)：将静态文件打包到一起，提供一个一键生成server的工具
 * [revive](https://github.com/mgechev/revive)：go-linter工具，没有使用过，有待考察
+* [zek](https://github.com/miku/zek)：将xml字符串转成struct
 
 ## npm安装的
 
