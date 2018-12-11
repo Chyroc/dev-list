@@ -38,7 +38,7 @@
   * brew install vim --with-override-system-vi
 * [docker](https://www.docker.com/)
   * 装就是了，很有用
-  * brew cask install docker
+  * [访问本站下载](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 * [jq](https://stedolan.github.io/jq/)
   * 将json字符串格式化高亮的工具
   * brew install jq
@@ -49,6 +49,9 @@
 * [postman](https://www.getpostman.com/)
   * 一个带gui的发送http请求的工具
   * brew cask install postman
+* wireshark
+  * 一个tcp抓包工具
+  * [点击下载](https://www.wireshark.org/download.html)
 
 ## front-end
 
