@@ -41,6 +41,7 @@
           man "$@"
       }
       ```
+    * 关闭自动转义 `\`: `zstyle ':urlglobber' url-other-schema`
 
 
 ## mac
