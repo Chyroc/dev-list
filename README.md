@@ -17,6 +17,39 @@
   * 一个shell和一个管理这个的，必装
   * brew install zsh
   * install oh-my-zsh with [this]([oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh))
+  * antigen
+    * 这是一个 zsh 插件管理器
+    * 安装：curl -L git.io/antigen > $HOME/.oh-my-zsh/custom/plugins/antigen.zsh
+    * 然后将下面的命令加到 `~/.zshrc`
+        ```
+        source $HOME/.oh-my-zsh/custom/plugins/antigen.zsh
+        antigen bundle zsh-users/zsh-autosuggestions
+        antigen bundle zsh-users/zsh-syntax-highlighting
+        antigen apply
+        ```
+  * man 高亮
+      ```
+      man() {
+        env GROFF_NO_SGR=1 \
+          LESS_TERMCAP_mb=$'\E[1;36m' \
+          LESS_TERMCAP_md=$'\E[1;36m' \
+          LESS_TERMCAP_me=$'\E[0m' \
+          LESS_TERMCAP_se=$'\E[0m' \
+          LESS_TERMCAP_so=$'\E[1;44;33m' \
+          LESS_TERMCAP_ue=$'\E[0m' \
+          LESS_TERMCAP_us=$'\E[1;33m' \
+          man "$@"
+      }
+      ```
+
+
+## mac
+
+* [管理窗口](https://github.com/eczarny/spectacle)
+
+## 编辑器
+
+* [sublime 3](https://www.sublimetext.com/3)
 
 ## data store
 
