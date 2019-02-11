@@ -17,6 +17,40 @@
   * 一个shell和一个管理这个的，必装
   * brew install zsh
   * install oh-my-zsh with [this]([oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh))
+  * antigen
+    * 这是一个 zsh 插件管理器
+    * 安装：curl -L git.io/antigen > $HOME/.oh-my-zsh/custom/plugins/antigen.zsh
+    * 然后将下面的命令加到 `~/.zshrc`
+        ```
+        source $HOME/.oh-my-zsh/custom/plugins/antigen.zsh
+        antigen bundle zsh-users/zsh-autosuggestions
+        antigen bundle zsh-users/zsh-syntax-highlighting
+        antigen apply
+        ```
+  * man 高亮
+      ```
+      man() {
+        env GROFF_NO_SGR=1 \
+          LESS_TERMCAP_mb=$'\E[1;36m' \
+          LESS_TERMCAP_md=$'\E[1;36m' \
+          LESS_TERMCAP_me=$'\E[0m' \
+          LESS_TERMCAP_se=$'\E[0m' \
+          LESS_TERMCAP_so=$'\E[1;44;33m' \
+          LESS_TERMCAP_ue=$'\E[0m' \
+          LESS_TERMCAP_us=$'\E[1;33m' \
+          man "$@"
+      }
+      ```
+    * 关闭自动转义 `\`: `zstyle ':urlglobber' url-other-schema`
+
+
+## mac
+
+* [管理窗口](https://github.com/eczarny/spectacle)
+
+## 编辑器
+
+* [sublime 3](https://www.sublimetext.com/3)
 
 ## data store
 
@@ -38,7 +72,7 @@
   * brew install vim --with-override-system-vi
 * [docker](https://www.docker.com/)
   * 装就是了，很有用
-  * brew cask install docker
+  * [访问本站下载](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 * [jq](https://stedolan.github.io/jq/)
   * 将json字符串格式化高亮的工具
   * brew install jq
@@ -52,6 +86,9 @@
 * pngparse
   * 复制剪切板图片到文件
   * brew install pngpaste
+* wireshark
+  * 一个tcp抓包工具
+  * [点击下载](https://www.wireshark.org/download.html)
 
 ## front-end
 
