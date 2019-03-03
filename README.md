@@ -100,6 +100,9 @@
 * [postman](https://www.getpostman.com/)
   * 一个带gui的发送http请求的工具
   * brew cask install postman
+* pngparse
+  * 复制剪切板图片到文件
+  * brew install pngpaste
 * wireshark
   * 一个tcp抓包工具
   * [点击下载](https://www.wireshark.org/download.html)
@@ -126,6 +129,7 @@
 * [server-packager](https://github.com/Chyroc/server-packager)：将静态文件打包到一起，提供一个一键生成server的工具
 * [revive](https://github.com/mgechev/revive)：go-linter工具，没有使用过，有待考察
 * [air](https://github.com/cosmtrek/air): 监控代码，自动reload工具
+* [zek](https://github.com/miku/zek)：将xml字符串转成struct
 
 ## npm安装的
 
