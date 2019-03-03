@@ -41,7 +41,7 @@
           man "$@"
       }
       ```
-    * 关闭自动转义 `\`: `zstyle ':urlglobber' url-other-schema`
+    * 关闭自动转义 `\`: 注释掉 `~/.oh-my-zsh/lib/misc.zsh` `url-quote-magic` 相关的代码
 
 
 ## mac
@@ -68,6 +68,23 @@
 
 * [autojump](https://github.com/wting/autojump)：快速进入目录的工具
   * brew install autojump
+* [fzf](https://github.com/junegunn/fzf)：命令模糊查询
+  * brew install fzf
+* [bat](https://github.com/sharkdp/bat)
+  * brew install bat
+  * 带有高亮的cat
+* [asciinema](https://asciinema.org/)：终端录屏工具
+  * brew install asciinema
+  * 注册登录
+    * 访问 https://asciinema.org/ 注册
+    * 输入【asciinema auth】在命令行中登录
+  * 录屏
+    * asciinema rec：开始录屏
+    * CTRL-D 结束
+* [ncdu](https://dev.yorhel.nl/ncdu)：分析、清理磁盘空间
+  * brew install ncdu
+* [peco](https://github.com/peco/peco)：类似grep，但是实时处理
+  * brew install peco
 * [vim](https://www.vim.org/)
   * brew install vim --with-override-system-vi
 * [docker](https://www.docker.com/)
@@ -86,6 +103,10 @@
 * wireshark
   * 一个tcp抓包工具
   * [点击下载](https://www.wireshark.org/download.html)
+* pngpaste
+  * 一个mac下将图片复制为文件的工具
+  * 安装：`brew install pngpaste`
+  * 使用：`pngpaste /tmp/tmp.png`
 
 ## front-end
 
@@ -104,6 +125,7 @@
 * [go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)：和go-bindata配套使用，提供net/http的接口
 * [server-packager](https://github.com/Chyroc/server-packager)：将静态文件打包到一起，提供一个一键生成server的工具
 * [revive](https://github.com/mgechev/revive)：go-linter工具，没有使用过，有待考察
+* [air](https://github.com/cosmtrek/air): 监控代码，自动reload工具
 
 ## npm安装的
 
