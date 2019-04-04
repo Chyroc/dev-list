@@ -111,6 +111,12 @@
   * 安装：`brew install pngpaste`
   * 使用：`pngpaste /tmp/tmp.png`
 
+## regex
+
+* 实时查看正则结果，生成各端代码：https://regex101.com/
+* 解释正则各代码含义：https://regexr.com/
+* 生成正则对应的图片(svg/png)：https://regexper.com
+
 ## front-end
 
 * [nvm](https://github.com/creationix/nvm)：安装node和管理node版本的
