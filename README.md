@@ -110,6 +110,9 @@
   * 一个mac下将图片复制为文件的工具
   * 安装：`brew install pngpaste`
   * 使用：`pngpaste /tmp/tmp.png`
+* [sup](https://github.com/pressly/sup)
+  * 自动部署工具
+  * `GO111MODULE=off go get -u github.com/pressly/sup/cmd/sup`
 
 ## regex
 
